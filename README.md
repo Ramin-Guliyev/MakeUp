@@ -16,7 +16,7 @@ This package is set of extenion methots for making colorful console apps .
 
 Add package to your project from [nuget](https://www.nuget.org/packages/MakeUp/)
 
-    dotnet add package MakeUp --version 1.0.0
+    dotnet add package MakeUp --version 2.0.0
 
 ```csharp
 using MakeUp;
