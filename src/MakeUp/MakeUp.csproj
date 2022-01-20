@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/Ramin-Guliyev/MakeUp</RepositoryUrl>
     <PackageTags>Console, color, colorful console</PackageTags>
     <Copyright>Copyright (C) Ramin Guliyev</Copyright>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
 </Project>
