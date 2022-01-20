@@ -1,15 +1,16 @@
 [![Nuget](https://img.shields.io/nuget/v/MakeUp.svg?color=blue&label=MakeUp&style=flat-square)](https://www.nuget.org/packages/MakeUp/)
 [![Nuget](https://img.shields.io/nuget/dt/MakeUp.svg?style=flat-square)](https://www.nuget.org/packages/MakeUp/)
 # MakeUp
-* Make your console app looks much more pretty 😉 *
+* Make your console app looks much more pretty 😉 
 
 
 ## Introduction
-This package helps you to make colorful console apps with the best solution.
+This package is set of extenion methots for making colorful console apps .
 
 ## Current Features
 * Writes colorful string to one line.
 * Writes colorful string to new line.
+* Changes string background colors.
 
 ## Getting started
 
@@ -24,8 +25,13 @@ public class Example
 {
         public static void Main()
         {
-                "Hello World".Write(MakeUpColor.DarkRed);
-                "Hello World".WriteLine(MakeUpColor.White);
+                "Hello World".Write(Color.DarkRed);
+                "Hello MakeUp".WriteLine(Color.White);
+
+                "Hello MakeUp".Write(BackgroundColor.Gray);
+                "Hello World".WriteLine(BackgroundColor.Green);
+
+                "Hello MakeUp".WriteLine(BackgroundColor.Green,Color.DarkRed)
         }
 }
 ```
@@ -40,7 +46,7 @@ public class Example
         public static void Main()
         {
                 MakeUp.Write("Hello World",MakeUpColor.DarkRed);
-                MakeUp.Write("Hello World",MakeUpColor.White);
+                MakeUp.Write("Hello MakeUp",MakeUpColor.White);
         }
 }
 ```

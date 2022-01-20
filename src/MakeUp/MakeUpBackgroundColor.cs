@@ -1,6 +1,7 @@
-﻿namespace MakeUp
+﻿
+namespace MakeUp
 {
-    public enum Color
+    public enum BackgroundColor
     {
         Black = 0,
         DarkBlue = 1,
